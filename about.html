@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About NN Travels And Tours</title>
+</head>
+<body>
+    <style>
+
+      body {
+      background-image:linear-gradient(to left chocolate 0%,rgb(255, 102, 0)) ;
+        
+      }
+
+      h1 {
+        text-align: center;
+        color: crimson;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid rgb(245, 102, 245);
+        background: rgb(248, 19, 19);
+        font-size: 20px;
+        border-radius: 6px;
+        padding: 10px 15px;
+        transition: all 150ms ease-in-out;
+      }
+
+      button:hover {
+        background: rgb(245, 5, 245);
+        cursor: pointer;
+      }
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      footer {
+        text-align: center;
+        margin: 10px 0;
+        font-size: 18px;
+      }
+
+      .theme-button {
+        font-size: 10px;
+        background: black;
+        color: white;
+        padding: 5 8px;
+      }
+
+      .theme-button:hover {
+        color: rgb(0, 0, 0);
+        background: hsl(56, 85%, 46%);
+      }
+
+      .travels-intro-picture {
+        border-radius: 10px;
+        transition: all 150ms ease-in-out;
+      }
+
+      .travels-intro-picture:hover {
+        filter: contrast(80%);
+        transform: scale(1.1);
+      }
+
+      .grid {
+        margin: 15px 0;
+        display: grid;
+        grid-template-columns: 10fr 10fr 10fr ;
+        grid-gap: 20px;
+      }
+
+      .grid img {
+        width: 200%;
+        border-radius: 10px;
+        transition: all 150ms ease-in-out;
+      }
+
+      .grid img:hover {
+        transform: scale(2);
+      }
+
+      .dark {
+        background: linear-gradient(
+          112.1deg,
+          #76c70d 11.4%,
+          hsl(113, 98%, 47%) 70.2%
+        );
+        color: white;
+      }
+
+      .dark .container {
+        background: #4808dd1a;
+      }
+
+      .dark a {
+        color: plum;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="theme-button">Change theme</button>
+    <div class="container">
+      <h1>"About NN Tours And Travels" </h1>
+      <h1>popular destinations</h1>
+      <h2>"From Hidden Gems to Iconic Destinations"</h2>
+      <a href="https://en.wikipedia.org/wiki/travel and towers picture" target="_blank">
+        <img
+          src=""
+          alt=""
+          class="travels and tours picture"
+        />
+      </a>
+      <div class="grid">
+        <img
+          src="https://hightowers.vercel.app/assets/destination-1.jpg"
+          alt=""/>
+          <img src="https://hightowers.vercel.app/assets/destination-2.jpg"
+          alt=""/>
+          <img src="https://hightowers.vercel.app/assets/destination-3.jpg" alt=""/>
+
+          
+      </div>
+    
+    
+      <p>
+        <br>
+        <strong>
+🌍 Top 5 Underrated Travel Destinations You Need to Visit</strong>
+<br/>
+When most people think of travel, their minds jump to Paris, New York, or Dubai. But the world is full of hidden gems—places that offer breathtaking beauty, rich culture, and unforgettable experiences without the crowds. If you're craving something different, here are five underrated destinations that deserve a spot on your bucket list.
+<br/><br/>
+1. Chefchaouen, Morocco – The Blue Pearl
+Nestled in the Rif Mountains, this charming town is painted in every shade of blue imaginable. Wander through its narrow alleys, sip mint tea on rooftop terraces, and soak in the serene vibe that makes Chefchaouen feel like a dream.
+<br/><br/>
+2. Lagos, Nigeria – Vibrant and Unfiltered
+From the bustling markets of Balogun to the artistic energy of Lekki, Lagos is a city that pulses with life. Explore its beaches, taste the spicy jollof rice, and dance to Afrobeats until sunrise. Lagos isn’t just a destination—it’s an experience.
+<br/><br/>
+3. Luang Prabang, Laos – Spiritual Serenity
+This UNESCO World Heritage town is a blend of Buddhist temples, French colonial architecture, and lush landscapes. Wake up early to witness the monks’ alms-giving ceremony, then cruise down the Mekong River for a peaceful escape.
+<br/><br/>
+4. Matera, Italy – The City of Stone
+Carved into limestone cliffs, Matera’s ancient cave dwellings (Sassi) are unlike anything you’ve seen. It’s a place where history whispers from every wall, and sunsets bathe the city in golden light.
+<br/><br/>
+5. Salento, Colombia – Coffee, Colors, and Culture
+This vibrant town in Colombia’s coffee region is bursting with color and charm. Hike through the Cocora Valley’s towering wax palms, sip world-class coffee, and enjoy the warmth of Colombian hospitality.
+<br/><br/>
+✈️ Ready to explore beyond the ordinary? These destinations prove that sometimes the best adventures are found off the beaten path. Stay tuned for more travel inspiration, tips, and stories that will fuel your wanderlust.
+
+      </p>
+        <br /><br/><br/>
+        📖
+        <a href="https://en.wikipedia.org/wiki/Travels And Tours">
+          <strong> Read on Wikipedia </strong>
+        </a>
+      </p>
+    </div>
+    
+
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        // body.classList.toggle("dark");
+
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
